@@ -19,7 +19,7 @@ st = STR_PROMPT;
 print_sh(st);
 buffer = NULL;
 bufsize = BUFSIZE_sh;
-buffer = (char *)malloc(bufsize * sizeof(char));
+buffer = (char *)malloc(bufsize *sizeof(char));
 if (buffer == NULL)
 {
 perror("Unable to allocate buffer");
